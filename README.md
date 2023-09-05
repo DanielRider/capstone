@@ -1,4 +1,3 @@
 # capstone
 
-https://docs.google.com/document/d/1djCcypoRIZ12QMYUDk5Xw_KdYESAb6csOW-wcgnizkQ/edit?usp=sharing
-google doc with potentially useful papers
+ProjectInitiation directory is the initialization phase of the project. It includes a ppt and statement of work (SOW) document. "presentation link.txt" contains youtube link to our presentation on an introductory overview and initiation of the capstone project. 
