@@ -1,3 +1,2 @@
-1. Diabetes Mellitus Prediction and Severity Level Estimation Using OWDANN Algorithm(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8403056/) 
-This paper proposed an OWDANN algorithm for diabetes mellitus disease prediction and severity level estimation
+Dataset1 - Pima Indians Diabetes Database. Diabetes Mellitus Prediction and Severity Level Estimation Using OWDANN Algorithm(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8403056/) This paper proposed an OWDANN algorithm for diabetes mellitus disease prediction and severity level estimation. Another paper using pima dataset is Diabetes Mellitus Disease Prediction and Type Classification Involving Predictive Modeling Using Machine Learning Techniques and Classifiers(https://doi.org/10.1155/2022/7899364).
   
