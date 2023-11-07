@@ -13,5 +13,5 @@ The target variable Diabetes_012 has 3 classes. 0 is for no diabetes or only dur
 ## Authors 
 Gaurang Solanki  
 Jasmine Joy  
-Udipthaman Das  
+Udiptaman Das  
 Daniel Rider
