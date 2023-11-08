@@ -1,9 +1,12 @@
 CherryPy==18.8.0
 fitbit==0.3.1
+geocoder==1.38.1
+geopy==2.4.0
 numpy==1.24.3
 oauthlib==3.2.2
-openai==1.1.1
+openai==1.1.2
 openpyxl==3.0.10
 pandas==2.0.3
 plotly==5.9.0
+Requests==2.31.0
 streamlit==1.28.1

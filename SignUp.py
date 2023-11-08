@@ -90,7 +90,7 @@ if page == "Login":
                 workbook.save("user_login.xlsx")
                 # Close the workbook
                 workbook.close()
-                subprocess.Popen(["streamlit", "run", "RiskScore.py"])
+                subprocess.Popen(["streamlit", "run", "main.py"])
             else:
                 st.error("Invalid username or password. Please try again.")
 
