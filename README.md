@@ -1,6 +1,8 @@
 # Empowering Diabetes Management
 
 
+Demo: https://www.loom.com/share/d57dc6c3a78e47bcbeb014e3bb3aedf4?sid=3d1a4445-15a5-4f14-bbb8-4d182677761c
+
 We are making a diabetes management app with integrations with the health Tech ecosystem such as Apple health and fitbit, and more importantly integrating with Continuous Glucose Monitoring systems such as Dexcom.
 
 We are most excited about feeling like we're helping people with our app and making the lives of others easier when it comes to managing their condition. 
