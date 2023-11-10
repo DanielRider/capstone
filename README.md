@@ -15,8 +15,8 @@ We are most excited about feeling like we're helping people with our app and mak
 ![CGM](https://www.datocms-assets.com/46938/1652177632-woman-with-continuous-glucose-monitor.jpeg)
 
 ## Dataset used
-diabetes _ 012 _ health _ indicators _ BRFSS2015.csv is a clean dataset of 253,680 survey responses to the CDC's BRFSS2015.  
-The target variable Diabetes_012 has 3 classes. 0 is for no diabetes or only during pregnancy, 1 is for prediabetes, and 2 is for diabetes.
+The Diabetes prediction dataset is a collection of medical and demographic data from patients, along with their diabetes status (positive or negative). The data includes features such as age, gender, body mass index (BMI), hypertension, heart disease, smoking history, HbA1c level, and blood glucose level.
+[data]([url](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 
 ## Authors 
 Gaurang Solanki  
