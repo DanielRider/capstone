@@ -16,7 +16,7 @@ We are most excited about feeling like we're helping people with our app and mak
 
 ## Dataset used
 The Diabetes prediction dataset is a collection of medical and demographic data from patients, along with their diabetes status (positive or negative). The data includes features such as age, gender, body mass index (BMI), hypertension, heart disease, smoking history, HbA1c level, and blood glucose level.
-[Data]: ([url](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset))
+([Data](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset))
 
 
 ## Authors 
