@@ -1,5 +1,4 @@
-# Empowering Diabetes Management
-
+# AI-Betes Advisor
 
 Demo: 
 https://www.loom.com/share/d57dc6c3a78e47bcbeb014e3bb3aedf4?sid=3d1a4445-15a5-4f14-bbb8-4d182677761c
