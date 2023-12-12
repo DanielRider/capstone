@@ -9,7 +9,7 @@ api_key = os.getenv('OPENAI_API_KEY')
 class Assistant:
   def __init__(self, userfilepath):
       self.client = OpenAI(
-        api_key='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',
+        api_key='',
       )
       self.assistant_id = 'asst_nuA2fHeOmt0TIP6pfjNXDQi1'
       self.userfilepath = userfilepath
