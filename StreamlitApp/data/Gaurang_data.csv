@@ -1,0 +1,13 @@
+gender,meds,steroids,age,family_History,weight,height,bmi,smoker,score
+Male,True,True,23,Parent and sibling with diabetes,81.007336,1.83,21.78644808743169,Non-smoker,33.026206907282926
+Male,False,False,23,Parent or sibling with diabetes,82.007336,1.83,22.78644808743169,Non-smoker,1.559633639457834
+Male,False,False,23,Parent or sibling with diabetes,83.007336,1.83,23.78644808743169,Non-smoker,1.559633639457834
+Male,False,False,23,Parent or sibling with diabetes,84.007336,1.83,24.78644808743169,Non-smoker,1.559633639457834
+Male,False,False,23,Parent or sibling with diabetes,82.007336,1.83,22.78644808743169,Non-smoker,1.559633639457834
+Male,False,False,23,Parent or sibling with diabetes,82.007336,1.83,22.78644808743169,Non-smoker,1.559633639457834
+Male,False,False,23,Parent or sibling with diabetes,83.007336,1.83,23.78644808743169,Non-smoker,1.559633639457834
+Male,False,False,23,Parent or sibling with diabetes,83.007336,1.83,24.78644808743169,Non-smoker,1.559633639457834
+Male,False,False,23,Parent or sibling with diabetes,83.007336,1.83,24.78644808743169,Non-smoker,1.559633639457834
+Male,False,False,23,No diabetic 1st-Degree relative,83.007336,1.83,24.78644808743169,Non-smoker,0.7592295742539814
+Male,False,False,23,No diabetic 1st-Degree relative,83.007336,1.83,24.78644808743169,Non-smoker,0.7592295742539814
+Male,False,False,23,No diabetic 1st-Degree relative,82.99733599999999,1.83,24.78346203230911,Non-smoker,0.7592295742539814
