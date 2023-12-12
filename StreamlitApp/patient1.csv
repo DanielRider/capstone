@@ -1,0 +1,2 @@
+gender,age,hypertension,heart_disease,smoking_history,bmi,HbA1c_level,blood_glucose_level,diabetes,activity_minutes,medication,risk_score
+Male,52,True,True,Frequent,30.5,7.2,180,True,20,Metformin,0.9
