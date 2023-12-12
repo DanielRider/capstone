@@ -9,18 +9,16 @@ api_key = os.getenv('OPENAI_API_KEY')
 class Assistant:
   def __init__(self, userfilepath):
       self.client = OpenAI(
-        api_key=api_key,
+        api_key='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',
       )
       self.assistant_id = 'asst_nuA2fHeOmt0TIP6pfjNXDQi1'
       self.userfilepath = userfilepath
       self.run = None
       self.thread = None
       self.file = None
-      self.message = None
+      self.latest_message = None
       self.message_list = None
-      self.getFile()
-      self.generateThread()
-      self.generateRun()
+
 
   def getFile(self):
       self.file = self.client.files.create(
@@ -33,7 +31,7 @@ class Assistant:
         messages=[
           {
             "role": "user",
-            "content": "I need help with preventing and managing diabeties. Here is my data",
+            "content": "I need help with preventing and managing diabeties. Here is my data. Limit response to one paragraph",
             "file_ids": [self.file.id]
           }
         ]
@@ -60,9 +58,11 @@ class Assistant:
 
   def retrieveMessage(self):
     # Retrieve the message object
+    self.get_response()
+    last_message_id = self.message_list.last_id
     message = self.client.beta.threads.messages.retrieve(
       thread_id=self.thread.id,
-      message_id=self.message.id
+      message_id=last_message_id
     )
 
     # Extract the message content
@@ -96,24 +96,26 @@ class Assistant:
 
   def wait_on_run(self):
       while self.run.status == "queued" or self.run.status == "in_progress":
-          self.run = testassistant.client.beta.threads.runs.retrieve(
+          self.run = self.client.beta.threads.runs.retrieve(
               thread_id=self.thread.id,
               run_id=self.run.id,
           )
-          print(self.run.status)
+          # print(self.run.status)
           time.sleep(0.5)
       return self.run
 
 
-testassistant = Assistant("patient1.csv")
-run1 = testassistant.wait_on_run()
-try:
-    print(testassistant.retrieveMessage())
-except Exception as e:
-    print(f'error {e}')
-finally:
-    testassistant.get_response()
-    testassistant.pretty_print()
+# testassistant = Assistant("patient1.csv")csv
+# run1 = testassistant.wait_on_run()
+# print(testassistant.retrieveMessage())
+
+# try:
+#     print(testassistant.retrieveMessage())
+# except Exception as e:
+#     print(f'error {e}')
+# finally:
+#     testassistant.get_response()
+#     testassistant.pretty_print()
 
 
 
