@@ -1,4 +1,4 @@
-CherryPy==18.8.0
+CherryPy==18.8
 fitbit==0.3.1
 geocoder==1.38.1
 geopy==2.4.0
